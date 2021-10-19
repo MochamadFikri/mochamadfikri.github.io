@@ -1,4 +1,4 @@
-const CACHE_NAME = "mythpedia-v3";
+const CACHE_NAME = "mythpedia-v4";
 var urlsToCache = [
   "/",
   "/nav.html",
@@ -17,7 +17,9 @@ var urlsToCache = [
   "/img/java.jpg",
   "/img/sunda.jpg",
   "/img/sunda.png",
-  "/mythpedia.png"
+  "/mythpedia-192.png",
+  "/mythpedia-512.png",
+  "/manifest.json"
 ];
  
 self.addEventListener("install", function(event) {
